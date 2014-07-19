@@ -1,7 +1,8 @@
-# version 1.4-1
-# docker-version 0.11.1
-FROM        ubuntu:12.04
-MAINTAINER  Jim Myhrberg "contact@jimeh.me"
+# version 1.4-2 - 2014-07-19
+# docker-version 1.1.1
+#  Slightly modified from MAINTAINER  Jim Myhrberg "contact@jimeh.me"
+FROM        ubuntu:14.04
+MAINTAINER  Scott Schulz "<swschulz@gmail.com>"
 
 # We use a bootstrap script to avoid having temporary cache files and build
 # dependencies being committed and included into the docker image.
